@@ -15,9 +15,7 @@ const Hero = ({ message }) => {
       <button className='btn'>Explore more<img src={dark_arrow} alt=""></img></button>
       </div>
       <div className='right-side-container'>
-      {message ? <div className='login-container'>
-        <UserForm />
-        </div> : null } 
+      {message ? <div className='login-container'><UserForm /></div> : null } 
       </div>
     </div>
   )

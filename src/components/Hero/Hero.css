@@ -1,6 +1,6 @@
 .hero{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     min-height: 100vh;
     background: linear-gradient(#08003ab3, #08003ab3), url(../../assets/Hero1.jpg);
     background-size: cover;
