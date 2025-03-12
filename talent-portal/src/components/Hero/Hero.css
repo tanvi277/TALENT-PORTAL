@@ -1,0 +1,69 @@
+.hero{
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    background: linear-gradient(#08003ab3, #08003ab3), url(../../assets/Hero1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 20px 113px;
+}
+.left-side-container{
+    text-align: left;
+    max-width: 800px;
+    width:459px;
+}
+.left-side-container h1 {
+    font-size: 72px;
+    font-weight: 600;
+}
+.left-side-container p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+.right-side-container{
+ text-align: right;
+}
+.login-container{
+align-self: center;
+width: 435px;
+height: 470px;
+background: white;
+padding: 15px 15px;
+color: black;
+}
+
+@media screen and (max-width:576px) {
+    .hero{
+        justify-content: space-between;
+        min-height: 100vh;
+        position: fixed;
+        width: 100%;
+        display: inline-block;
+        padding: 10px 41px;
+    }
+    .login-container{
+        width: 333px;
+    }
+    .left-side-container{
+        width: 365px;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .hero {
+        justify-content: space-between;
+        min-height: 100vh;
+        position: fixed;
+        width: 100%;
+        display: inline-block;
+        padding: 10px 21px;
+        justify-content: center;
+    }
+}
